@@ -127,4 +127,4 @@ if (confirmed) {
 ```
 
 ## Typos? Improvements?
-Thanks for reading. If you notice any typos or would like to suggest improvements, please feel free to either create an issue or PR [here]().
+Thanks for reading. If you notice any typos or would like to suggest improvements, please feel free to either create an issue or PR [here](https://github.com/metamodal/blog/blob/master/control-a-dialog-box-asynchronously-using-react-hooks/control-a-dialog-box-asynchronously-using-react-hooks.md).
