@@ -24,7 +24,7 @@ if (confirmed) {
 
 In this post, we will create the above hook. This will allow us to have a single confirmation dialog box at an app-level, and communicate with it using the context API.
 
-[The final implementation can be found in this CodeSandbox](https://githubbox.com/metamodal/blog/tree/master/control-a-dialog-box-asynchronously-using-react-hooks/example/final).
+[An example implementation of this can be found in this CodeSandbox.](https://githubbox.com/metamodal/blog/tree/master/control-a-dialog-box-asynchronously-using-react-hooks/example/final)
 
 ## Step 1: Setup the context
 
@@ -138,6 +138,8 @@ if (confirmed) {
   // perform operation
 }
 ```
+
+[Once again, here's a CodeSandbox of an example implementation.](https://githubbox.com/metamodal/blog/tree/master/control-a-dialog-box-asynchronously-using-react-hooks/example/final)
 
 ## Typos? Improvements?
 Thanks for reading. If you notice any typos or would like to suggest improvements, please feel free to either create an issue or PR [here](https://github.com/metamodal/blog/blob/master/control-a-dialog-box-asynchronously-using-react-hooks/control-a-dialog-box-asynchronously-using-react-hooks.md).
