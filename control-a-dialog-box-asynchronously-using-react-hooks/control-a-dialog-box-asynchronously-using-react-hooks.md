@@ -5,7 +5,7 @@ tags: react, javascript, tutorial
 
 We often control dialog boxes by including the component in our JSX and controlling its visibility and behaviour with state variables and props.
 
-Most of the time however, these are pretty standard components that requires very little data to render, like a confirmation dialog box, for example. With hooks, we should be able to do something like this:
+Most of the time however, these are pretty standard components that require very little data to render, like a confirmation dialog box, for example. With hooks, we should be able to do something like this:
 
 ```jsx
 const { getConfirmation } = useConfirmationDialog();
@@ -24,7 +24,7 @@ if (confirmed) {
 
 In this post, we will create the above hook. This will allow us to have a single confirmation dialog box at an app-level, and communicate with it using the context API.
 
-[The final implementation can be found in this CodeSandbox](https://github.com/metamodal/blog/tree/master/control-a-dialog-box-asynchronously-using-react-hooks/example/final).
+[The final implementation can be found in this CodeSandbox](https://githubbox.com/metamodal/blog/tree/master/control-a-dialog-box-asynchronously-using-react-hooks/example/final).
 
 ## Step 1: Setup the context
 
@@ -107,6 +107,19 @@ const useConfirmationDialog = () => {
 
   return { getConfirmation };
 };
+```
+
+## Step 4: Add the provider HOC at the app level
+Finally, we wrap that HOC we created in Step 1 around our app (or at whatever level you prefer).
+
+```jsx
+const App = () => {
+  return (
+    <ConfirmationDialogProvider>
+      {/* Your app here */}
+    </ConfirmationDialogProvider>
+  );
+}
 ```
 
 Usage:
