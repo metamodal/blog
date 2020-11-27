@@ -22,7 +22,7 @@ npm i -D @types/cors @types/express @types/node
 - `ts-node`: to run TypeScript programs directly from the terminal (instead of having to transpile to JavaScript first)
 - `nodemon`: to run your project in "watch" mode, meaning the program is automatically restarted every time you change your code
 - `@typescript-eslint/parser`: allows ESLint to understand TypeScript syntax
-- `@typescript-eslint/eslint-plugin`: loads the ESLint rules defined in you
+- `@typescript-eslint/eslint-plugin`: loads the ESLint rules defined by you
 
 # Step 3
 Create a file named `tsconfig.json` in the root of your project and paste the following config:
