@@ -6,7 +6,7 @@ cd express-ts-project
 npm init -y
 ```
 
-#Step 2
+# Step 2
 Install dependencies:
 ```sh
 # Express-related deps
