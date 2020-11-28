@@ -1,6 +1,14 @@
 Steps to create a barebones Express app with TypeScript and ESLint.
 
-A sample app setup is available [here](https://github.com/metamodal/blog/tree/master/quick-express-typescript-setup/example).
+A sample app setup is available [here](https://github.com/metamodal/blog/tree/master/quick-express-typescript-setup/example). To clone it locally, run:
+
+```sh
+mkdir express-ts-project
+cd express-ts-project
+npx degit metamodal/blog/quick-express-typescript-setup/example
+```
+
+Else follow along to setup the project manually.
 
 # Step 1
 Create an npm project:
