@@ -112,4 +112,4 @@ app.get(
 ```
 
 ## Typos? Improvements?
-Thanks for reading. If you notice any typos or would like to suggest improvements, please feel free to either create an issue or PR here.
+Thanks for reading. If you notice any typos or would like to suggest improvements, please feel free to either create an issue or PR [here](https://github.com/metamodal/blog/blob/master/how-to-create-custom-passport-middleware/how-to-create-custom-passport-middleware.md).
